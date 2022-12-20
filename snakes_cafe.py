@@ -55,8 +55,8 @@ ask_again = True
 while ask_again:
     choice = input("> ").lower()
     if choice == "quit":
-         ask_again = False
-         break
+        ask_again = False
+        break
     if choice.lower() in order.keys():
         order[choice] += 1
         print(f"** {order[choice]} orders of {choice} have been added to your meal **")
